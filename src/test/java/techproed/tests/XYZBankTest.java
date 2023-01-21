@@ -17,7 +17,7 @@ import static org.testng.AssertJUnit.assertTrue;
 public class XYZBankTest {
 
    XYZBankPage xyzBankPage=new XYZBankPage();
-    @Test
+    @Test(groups = "smoke-test")
     public void xyzBankTest() {
         XYZBankPage xyzBankPage = new XYZBankPage();
 //        Go to url https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
